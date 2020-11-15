@@ -416,6 +416,7 @@ conn.sendMessage(id, 'ulangi dengan  !pict cewek/cowok\n\nMisal: !pict cowok' ,M
          });
       }
    }
+
    if (messageType === MessageType.text)
    {
       let is = m.message.conversation.toLocaleLowerCase()
